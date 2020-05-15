@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+}
+input {
+    background-color: gray;
+    border-color:black;
+    color: cwhite;
+    width: 500px;
+    height: 40px;
+    margin-right: 50px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.icon-image {
+    width: 150px;
+    margin-left: 175px;
+}
+#formContent {
+    margin-top: 100px;
+    margin-left: 340px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+  }
+.underlineHover {
+    color: red;
+}
