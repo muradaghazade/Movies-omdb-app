@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+    color: red;
+}
+h2 {
+    color: red;
+}
+#main {
+    margin-top: 30px;
+}
+.header {
+    color: red;
+    margin-left: 20px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.2;
+    max-width: 598px;
+    margin-bottom: 10px;
+}
+.info-text{
+    color: white;
+    max-width: 598px;
+    font-size: 19px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.promo {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.promo-header {
+    color: red;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.movies {
+    display: flex;
+    margin-left: 90px;
+}
+.ug-image {
+    margin-left: 3px;
+    width: 250px;
+    height: 150px;
+}
+.ug-span {
+    color: white;
+    margin-left: 70px;
+    font-size: 16px;
+}
+.ex-image {
+    margin-left: 3px;
+    width: 250px;
+    height: 150px;
+}
+.ex-span {
+    color: white;
+    margin-left: 85px;
+    font-size: 16px;
+}
+.em-image {
+    margin-left: 3px;
+    width: 250px;
+    height: 150px;
+}
+.em-span {
+    color: white;
+    margin-left: 70px;
+    font-size: 16px;
+}
+.tg-span {
+    color: white;
+    margin-left: 90px;
+    font-size: 16px;
+}
+input {
+    background-color: gray;
+    border-color :black;
+    color: white;
+    width: 600px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+button {
+    background-color: gray;
+    border-color: gray;
+    color: white;
+    border-radius: 2px;
+}
+img {
+    margin-bottom: 5px;
+}
+.top-image {
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.top-image-span {
+    color: red;
+    margin-left: 190px;
+    font-size: 16px;
+}
+::placeholder {
+    color: white;
+    opacity: 1;
+  }
+.logo {
+    width: 68px;
+    margin-left: 15px;
+  }
+.sing-in {
+    margin-left: 90px;
+    color: white;
+}
+.log-in {
+    margin-left: 5px;
+    color: white;
+}
+a:hover {
+    color: red;
+    font-size: 18px;
+  }
+  .ug-image:hover {
+    width: 300px;
+    height: 180px;
+}
+.em-image:hover {
+    width: 300px;
+    height: 180px;
+}
+.ex-image:hover {
+    width: 300px;
+    height: 180px;
+}
+#game {
+    margin-left: 20px;
+}
+#music {
+    margin-left: 20px;
+}
+#movie {
+    margin-left: 120px;
+}
