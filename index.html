@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie BOX</title>
+    <link rel="icon" href="red-box-logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min copy.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <img class="logo" src="red-box-logo.png" alt="logo">
+        <input type="text" placeholder="Search" class="input">
+        <button class="button">Search</button>
+        <svg id="movie" class="bi bi-display-fill" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.75 13.5c.167-.333.25-.833.25-1.5h4c0 .667.083 1.167.25 1.5H11a.5.5 0 010 1H5a.5.5 0 010-1h.75z"/>
+            <path fill-rule="evenodd" d="M13.991 3H2c-.325 0-.502.078-.602.145a.758.758 0 00-.254.302A1.46 1.46 0 001 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 00.538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 00.254-.302 1.464 1.464 0 00.143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 00-.302-.254A1.46 1.46 0 0013.99 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z" clip-rule="evenodd"/>
+            <path d="M2 4h12v6H2z"/>
+          </svg>
+        <svg id="music" class="bi bi-music-note-beamed" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" clip-rule="evenodd"/>
+            <path d="M5 2.905a1 1 0 01.9-.995l8-.8a1 1 0 011.1.995V3L5 4V2.905z"/>
+          </svg>
+        <svg id="game" class="bi bi-controller" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.119 2.693c.904.19 1.75.495 2.235.98.407.408.779 1.05 1.094 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.815-.059 1.602-.328 2.21a1.42 1.42 0 01-1.445.83c-.636-.067-1.115-.394-1.513-.773a11.307 11.307 0 01-.739-.809c-.126-.147-.25-.291-.368-.422-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.422-.243.283-.494.576-.739.81-.398.378-.877.705-1.513.772a1.42 1.42 0 01-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772.486-.485 1.331-.79 2.235-.98.932-.196 2.03-.292 3.119-.292 1.089 0 2.187.096 3.119.292zm-6.032.979c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 00-.748 2.295 12.351 12.351 0 00-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 00.426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.505C4.861 9.97 5.978 9.026 8 9.026s3.139.943 3.965 1.855c.164.182.307.35.44.505.214.25.403.472.615.674.318.303.601.468.929.503a.42.42 0 00.426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 00-.339-2.406 13.753 13.753 0 00-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z" clip-rule="evenodd"/>
+            <path d="M11.5 6.026a.5.5 0 11-1 0 .5.5 0 011 0zm-1 1a.5.5 0 11-1 0 .5.5 0 011 0zm2 0a.5.5 0 11-1 0 .5.5 0 011 0zm-1 1a.5.5 0 11-1 0 .5.5 0 011 0zm-7-2.5h1v3h-1v-3z"/>
+            <path d="M3.5 6.526h3v1h-3v-1zM3.051 3.26a.5.5 0 01.354-.613l1.932-.518a.5.5 0 01.258.966l-1.932.518a.5.5 0 01-.612-.354zm9.976 0a.5.5 0 00-.353-.613l-1.932-.518a.5.5 0 10-.259.966l1.932.518a.5.5 0 00.612-.354z"/>
+          </svg>
+        <a class="sing-in" href="sing-in.html">Sing in</a>
+        <a class="log-in" href="log-in copy.html">Log in</a>
+    </div>
+    <div class="main">
+        <div id="main" class="col-md-6 py-4">
+           <h1 class="header">Movies</h1>
+           <p class="info-text">Movies move us like nothing else can, whether they’re scary, funny, dramatic, romantic or anywhere in-between. So many titles, so much to experience.</p>
+           <div class="promo">
+               <h1 class="promo-header">Popular on Movie BOX</h1>
+               <div class="movies">
+               <div class="first-movie">
+                    <img class="ug-image" src="https://www.brotherrice.org/wp-content/uploads/2020/03/uncut-gems-pic.jpg" alt="Uncut Gems pic">
+                    <div>
+                        <span class="ug-span">Uncut Gems</span>
+                    </div>
+               </div>
+               <div class="second-movie">
+                <img class="ex-image" src="https://techzimo.com/wp-content/uploads/2020/04/1586609543_maxresdefault.jpg" alt="Extraction pic">
+                <div>
+                    <span class="ex-span">Extraction</span>
+                </div>
+                </div>
+                <div class="third-movie">
+                <img class="em-image" src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZxGfpPGbc_UCOYt396nQxjDfq09BtldT5jYVmpisSGVSJIIgreEQ6MA-Ck_SQ6FYtDTdvy8-hc9ZD_4HG5JgVQlpSk.jpg?r=658" alt="E-M pic">
+                <div>
+                    <span class="em-span">Despicable Me</span>
+                </div>
+                </div>
+                <div class="fourth-movie">
+                    <img class="em-image" src="https://occ-0-2773-2774.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABW6_sRxqWfP16oQsFolLBTSvijWtg6_qON6LOxv2AXfmR69g3uRPkC8CBdLbx16in4geuYqjs63yecpFv96He4ywPwRX8my8pBP2MPNmI63MDrfMPa8DsAmFTPZL.jpg?r=1fd" alt="E-M pic">
+                    <div>
+                        <span class="tg-span">Tall Girl</span>
+                    </div>
+                    </div>
+            </div>
+           </div>
+        </div>
+        <div class="col-md-6 py-4" id="hi">
+            <img class="top-image" src="https://www.brotherrice.org/wp-content/uploads/2020/03/uncut-gems-pic.jpg" alt="Responsive image"/>
+            <div class="top-image-span">
+            <span>Top 1 on Movie BOX</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/client.js"></script>
+    <script src="js/obj.js"></script>
+</body>
+</html>
